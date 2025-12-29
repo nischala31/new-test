@@ -2,7 +2,7 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [ main, 'feature/*', 'my-branch' ]  # Add your branch pattern
+    branches: [ main, 'feature/*', 'SAST-SCA' ]  # Add your branch pattern
   pull_request:
     branches: [ main ]
   schedule:
