@@ -4,4 +4,4 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '30 5 * * 1
+    - cron: '*/5 * * * *'  # Every 5 minutes
