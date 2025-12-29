@@ -1,0 +1,7 @@
+on:
+  push:
+    branches: [ main, 'feature/*', 'SAST-SCA' ]  # Add your branch pattern
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '30 5 * * 1
